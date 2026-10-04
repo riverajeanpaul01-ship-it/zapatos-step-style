@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrito - Step Style</title>
+
+    <link rel="stylesheet" href="../css/stiles.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>STEP STYLE</h1>
+
+    <p>Carrito de Compras</p>
+
+</header>
+
+<nav>
+
+    <a href="../index.html">Inicio</a>
+
+    <a href="catalogo.html">Catálogo</a>
+
+    <a href="zapatos.html">Zapatos</a>
+
+    <a href="conjuntos.html">Conjuntos</a>
+
+    <a href="contacto.html">Contacto</a>
+
+    <a href="carrito.html">🛒 Carrito</a>
+
+</nav>
+
+<section class="carrito">
+
+    <h2>Productos Agregados</h2>
+
+    <ul id="listaCarrito">
+
+    </ul>
+
+    <div class="total">
+
+        <h3 id="total">Total: $0</h3>
+
+    </div>
+
+    <div class="botones">
+
+        <button onclick="vaciarCarrito()">
+            🗑 Vaciar carrito
+        </button>
+
+        <button onclick="finalizarCompra()">
+            ✅ Finalizar compra
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Step Style - Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="../carrito.js"></script>
+
+</body>
+
+</html>

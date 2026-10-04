@@ -1,0 +1,162 @@
+/*==========================
+    ESTILOS GENERALES
+==========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("una-elegante-tienda-de-zapatos-exhibe-varios-calzados-en-estanterías-madera-modernos-diferentes-colores-y-estilos-dispuestos-con-358383207.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/*==========================
+        ENCABEZADO
+==========================*/
+
+header{
+    background:#0B1F3A;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+/*==========================
+          MENÚ
+==========================*/
+
+nav{
+    background:#1E3A8A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:15px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/*==========================
+         BANNER
+==========================*/
+
+.banner{
+    text-align:center;
+    color:white;
+    padding:120px 20px;
+    background:rgba(0,0,0,.45);
+}
+
+.banner h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+/*==========================
+         BOTONES
+==========================*/
+
+button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    margin:5px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#FFD700;
+    color:black;
+}
+
+/*==========================
+       PRODUCTOS
+==========================*/
+
+.productos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:50px;
+}
+
+.producto{
+    width:300px;
+    background:rgba(255,255,255,.95);
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.producto:hover{
+    transform:translateY(-10px);
+}
+
+.producto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.producto h3{
+    color:#0B1F3A;
+    margin:15px 0;
+}
+
+.producto p{
+    font-size:22px;
+    font-weight:bold;
+    color:#333;
+}
+
+/*==========================
+          FOOTER
+==========================*/
+
+footer{
+    background:#0B1F3A;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}

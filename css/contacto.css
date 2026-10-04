@@ -1,0 +1,75 @@
+/*==========================
+        CONTACTO
+==========================*/
+
+.contacto{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(255,255,255,.95);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.contacto h2{
+    text-align:center;
+    color:#0B1F3A;
+    margin-bottom:25px;
+    font-size:35px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    font-weight:bold;
+    color:#0B1F3A;
+    margin-top:15px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:2px solid #2563EB;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+input:focus,
+textarea:focus{
+    border-color:#FFD700;
+}
+
+textarea{
+    resize:none;
+}
+
+form button{
+    margin-top:20px;
+    width:220px;
+    align-self:center;
+}
+
+.redes{
+    margin-top:40px;
+    text-align:center;
+    border-top:2px solid #ddd;
+    padding-top:25px;
+}
+
+.redes h2{
+    color:#0B1F3A;
+    margin-bottom:20px;
+}
+
+.redes p{
+    font-size:18px;
+    color:#333;
+    margin:10px 0;
+}

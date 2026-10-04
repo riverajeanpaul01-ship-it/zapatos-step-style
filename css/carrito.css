@@ -1,0 +1,63 @@
+/*==========================
+        CARRITO
+==========================*/
+
+.carrito{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(255,255,255,.95);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.carrito h2{
+    text-align:center;
+    color:#0B1F3A;
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+#listaCarrito{
+    list-style:none;
+    padding:0;
+}
+
+#listaCarrito li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f5f5f5;
+    margin-bottom:15px;
+    padding:15px;
+    border-radius:10px;
+    border-left:6px solid #2563EB;
+}
+
+#listaCarrito span{
+    font-size:18px;
+    color:#333;
+}
+
+.total{
+    text-align:right;
+    margin-top:30px;
+}
+
+.total h3{
+    color:#2563EB;
+    font-size:30px;
+}
+
+.botones{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.botones button{
+    min-width:220px;
+}

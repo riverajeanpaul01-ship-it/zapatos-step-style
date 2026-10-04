@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo - Step Style</title>
+
+    <link rel="stylesheet" href="../css/stiles.css">
+    <link rel="stylesheet" href="../css/catalogo.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>STEP STYLE</h1>
+
+    <p>Nuestro Catálogo</p>
+
+</header>
+
+<nav>
+
+    <a href="../index.html">Inicio</a>
+
+    <a href="catalogo.html">Catálogo</a>
+
+    <a href="zapatos.html">Zapatos</a>
+
+    <a href="conjuntos.html">Conjuntos</a>
+
+    <a href="contacto.html">Contacto</a>
+
+    <a href="carrito.html">🛒 Carrito</a>
+
+</nav>
+
+<section class="catalogo">
+
+    <h2>Nuestros Productos</h2>
+
+    <div class="productos">
+
+        <div class="producto">
+
+            <img src="images (2).jpg" alt="Zapato Deportivo">
+
+            <h3>Zapato Deportivo</h3>
+
+            <p>$120.000</p>
+
+            <button>Comprar</button>
+
+            <button onclick="agregarAlCarrito('Zapato Deportivo',120000)">
+                🛒 Agregar al carrito
+            </button>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="images (3).jpg" alt="Zapato Casual">
+
+            <h3>Zapato Casual</h3>
+
+            <p>$150.000</p>
+
+            <button>Comprar</button>
+
+            <button onclick="agregarAlCarrito('Zapato Casual',150000)">
+                🛒 Agregar al carrito
+            </button>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="images (4).jpg" alt="Zapato Elegante">
+
+            <h3>Zapato Elegante</h3>
+
+            <p>$180.000</p>
+
+            <button>Comprar</button>
+
+            <button onclick="agregarAlCarrito('Zapato Elegante',180000)">
+                🛒 Agregar al carrito
+            </button>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="images (5).jpg" alt="Botas Urbanas">
+
+            <h3>Botas Urbanas</h3>
+
+            <p>$220.000</p>
+
+            <button>Comprar</button>
+
+            <button onclick="agregarAlCarrito('Botas Urbanas',220000)">
+                🛒 Agregar al carrito
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Step Style - Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="../carrito.js"></script>
+
+</body>
+
+</html>

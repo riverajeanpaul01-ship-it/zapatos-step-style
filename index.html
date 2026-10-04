@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Step Style</title>
+
+    <link rel="stylesheet" href="css/stiles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>STEP STYLE</h1>
+
+    <p>Calzado con estilo para cada ocasión</p>
+
+</header>
+
+<nav>
+
+    <a href="index.html">Inicio</a>
+
+    <a href="html/catalogo.html">Catálogo</a>
+
+    <a href="html/zapatos.html">Zapatos</a>
+
+    <a href="html/conjuntos.html">Conjuntos</a>
+
+    <a href="html/contacto.html">Contacto</a>
+
+    <a href="html/carrito.html">🛒 Carrito</a>
+
+</nav>
+
+<section class="banner">
+
+    <h2>Bienvenido a Step Style</h2>
+
+    <p>
+        Descubre nuestra colección de zapatos deportivos, casuales y elegantes.
+    </p>
+
+    <a href="html/catalogo.html">
+
+        <button>Ver Catálogo</button>
+
+    </a>
+
+</section>
+
+<section class="productos">
+
+    <div class="producto">
+
+        <img src="images (2).jpg" alt="Zapato Deportivo">
+
+        <h3>Zapato Deportivo</h3>
+
+        <p>$120.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Zapato Deportivo',120000)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+    <div class="producto">
+
+        <img src="images (3).jpg" alt="Zapato Casual">
+
+        <h3>Zapato Casual</h3>
+
+        <p>$150.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Zapato Casual',150000)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Step Style - Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="carrito.js"></script>
+
+</body>
+
+</html>
